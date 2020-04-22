@@ -15,7 +15,7 @@ from datetime import datetime
 
 args = sys.argv
 
-video = cv2.VideoCapture('VID_20200326_170832.mp4')
+video = cv2.VideoCapture('VID_20200326_170832.mp4') # filename
 fps = video.get(cv2.CAP_PROP_FPS)
 print("FPS video file: ", fps)
 
